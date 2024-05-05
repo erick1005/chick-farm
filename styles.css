@@ -1,0 +1,40 @@
+body {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-image: url(images/background.jpeg);
+  height: 100vh; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-text {
+  margin-top: 40px;
+  color: lightsteelblue;
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: solid;
+  font-weight: bolder;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.card {
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+  border: 1px solid black;
+}
+
+.accordion {
+  width: 75%;
+}
