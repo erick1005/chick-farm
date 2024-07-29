@@ -1,18 +1,22 @@
 body {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  background-image: url(images/background.jpeg);
-  height: 100vh; 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin: 0;
+  padding: 0;
+  
 }
+
+.full-view-div {
+  background-image: url('images/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+
+}
+
+
 
 .welcome-text {
   margin-top: 40px;
-  color: lightsteelblue;
+  color: rgb(229, 229, 238);
   font-size: xx-large;
   text-align: center;
   text-decoration: solid;
@@ -29,7 +33,7 @@ body {
 }
 
 .card {
-  background-color: transparent;
+  background-color: rgb(34, 134, 34);
   color: white;
   font-weight: bolder;
   border: 1px solid black;
@@ -37,4 +41,9 @@ body {
 
 .accordion {
   width: 75%;
+}
+
+.product-full-view {
+  height: 100vh;
+  background-image: linear-gradient(-45deg, green, white);
 }
