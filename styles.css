@@ -21,6 +21,7 @@ body {
   text-align: center;
   text-decoration: solid;
   font-weight: bolder;
+  
 }
 
 .container {
@@ -32,15 +33,33 @@ body {
   margin-bottom: 60px;
 }
 
+.icon-image {
+  width: 170px;
+  border-radius: 50%;
+  margin-top: 0;
+}
+
 .card {
   background-color: rgb(34, 134, 34);
   color: white;
   font-weight: bolder;
-  border: 1px solid black;
+  border: none;
+  box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.598);
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: none;
 }
 
 .accordion {
   width: 75%;
+}
+
+.accordion-body {
+  background-color: rgb(34, 134, 34);
 }
 
 .product-full-view {
