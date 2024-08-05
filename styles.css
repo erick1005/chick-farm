@@ -78,3 +78,16 @@ body {
 .welcome-customer-div {
   height: 200px;
 }
+
+.small-text {
+  font-size: small;
+  color: rgb(210, 210, 206);
+}
+
+.container-rooster {
+  
+}
+
+footer {
+  background-image: linear-gradient(-45deg, green, white);
+}
